@@ -927,7 +927,7 @@ color: black;
 
 @media(max-width: 480px){
     .banner1{
-        flex-wrap: wrap;
+        display: grid;
     }
     .formulario{
         margin-left: 180px;
