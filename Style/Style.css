@@ -7,12 +7,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/* body{
-    width: 100%;
-} */
-
-
 .encabezado{
     background-color: black;
     display: flex;
@@ -43,7 +37,7 @@
 }
 
 .banner1{
-    background-image: url(/Assets/images/headerBg.png);
+    background-image: url(../Assets/images/headerBg.png);
     width: 100%;
     height: auto;
     display: flex;
