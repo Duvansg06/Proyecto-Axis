@@ -37,7 +37,7 @@
 }
 
 .banner1{
-    background-image: url(/Assets/images/headerBg.png);
+    background-image: url(../Assets/images/headerBg.png);
     width: 100%;
     height: auto;
     display: flex;
