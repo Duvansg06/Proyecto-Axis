@@ -807,3 +807,127 @@ color: black;
     }
     
 }
+
+@media (max-width: 768px) {
+
+    .encabezado{
+        flex-wrap: wrap;
+    }
+    .encabezado .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .parrafo1{
+        width: 440px;
+    }
+    
+    .banner1{
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        background-size: cover;
+        background-position: 0px;
+        
+    }
+    .box1{
+        width: 290px;
+        /* font-size: 14px; */
+    }
+    .box1 h1{
+        font-size: 17px;
+    }
+    .box1 img{
+        height: 30px;
+    }
+    .box2 {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+    .formulario {
+        margin-left: 0px;
+        margin-left: 247px;
+    }
+    .formulario h2{
+        font-size: 17px;
+    }
+    .footer1 p{
+        font-size: 9px;
+    }
+    .logos1{
+        width:190px;
+    }
+    .logos1 img{
+        height: 30px;
+        width: 200px;
+    }
+
+    .banner2{
+        justify-content: center;
+        
+    }
+
+    .cajas2{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .info2 .parrafo2 p{ 
+        width: 380px;
+    }
+    
+    .info2 .parrafo2-2 p{
+        width: 380px;
+    }
+    .banner3{
+        flex-wrap: wrap;
+    }
+    .banner4{
+        flex-wrap: wrap;
+    }
+    .imagen4{
+        width: 100%;
+        justify-content: center;
+    }
+    .banner5{
+        font-size: 12px;
+    }
+    .texto1 h3{
+        font-size: 12px;
+    }
+    .banner6{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .cartas{
+        width: 270px;
+    }
+    .parte2-6{
+        flex-wrap: wrap;
+    }
+    .boxx1-7 p{
+        font-size: 14px;
+    }
+    .parte1 p{
+        font-size: 14PX;
+    }
+    .banner7 h2{
+    font-size: 19px;
+    }
+    .boxx2-7{
+        flex-wrap: wrap;
+    }
+    .banner8{
+        font-size: 10px;
+    }
+    .banner9{
+        font-size: 12px;
+    }
+    
+    .links1{
+        padding: 10px 30px;
+    }
+
+
+}
