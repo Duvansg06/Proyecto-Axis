@@ -917,11 +917,11 @@ color: black;
     .banner9{
         font-size: 12px;
     }
-    
     .links1{
-        /* padding: 10px 30px; */
+        display: flex;
+        justify-content: center;
+        
     }
-
 
 }
 
