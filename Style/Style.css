@@ -163,7 +163,7 @@
 .banner2{
     background-color: #eeeeee;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 50px;
 }
 
@@ -600,8 +600,13 @@ color: black;
         padding: 0px;
         font-size: 15px;
     }
+    .titulofooter1{
+        font-size: 14px;
+    }
     .banner1{
         background-repeat: no-repeat;
+        padding: 93px 20px;
+        /* background-position: 0px; */
     }
     .imagen3 img{
         height: 200px;
@@ -634,16 +639,171 @@ color: black;
     .info2{
         font-size: 13px;
     }
-    .paner1{
-      
+    .informacion8{
+        padding: 0px;
     }
-    
-
+    .banner8{
+        height: 210px;
+    }
+    .texto1{
+        width: 280px;
+    }
     .info2 .parrafo2{
         width: 300px;
     }
     .info2 .parrafo2-2 p{
         width: 300px; 
+    }
+    .boxx2-7{
+        gap: 19px;
+    }
+    .info1-7 img{
+        height: 140px;
+    }
+    .info1-7 .mensaje{
+        font-size: 14px;
+        width: 235px;
+    }
+    
+}
+
+@media(max-width: 920px){
+    .banner1{
+       
+        margin-top: -2px;
+    }
+    .box1 img{
+        margin-top: 0px;
+        height: 40px;
+    }
+    .titulo1{
+        font-size: 12px;
+    }
+    .parrafo1 p{
+        font-size: 12px;
+        width: 400px;
+    }
+    .formulario{
+        width: 270px;
+        margin-left: -90px;
+        height: 288px;
+    }
+    .box2{
+        width: 100%;
+    }
+    .formulario h2{
+        font-size: 20px;
+    }
+    .logo{
+        padding: 10px 24px; 
+    }
+    .links1 li{
+        font-size: 12px;
+    }
+    .logo img{
+        height: 20px;
+        width: 70px;
+    }
+    .imagen2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .info2{
+        width: 500px;
+        /* background-color: #808080; */
+        margin-left: 40px;
+    }
+
+    .info2 .parrafo2 p{
+        width: 450px;
+    }
+    .info2 .parrafo2-2 p{
+        width: 450px;
+    }
+    .info2 button{
+        margin-top: 70px;
+        justify-content: center;
+        
+    }
+    .logos1 img{
+        height: 30px;
+    }
+    .titulofooter1{
+        font-size: 12px;
+    }
+    .footer1{
+        margin: 10px;
+    }
+    .info1-7 img{
+        height: 110px;
+    }
+    .mensaje li {
+        height: 30px;
+        font-size: 10px;
+        width: 180px;
+        margin-top: 40px;
+    }
+    .p1-7{
+        margin-top: 70px;
+    }
+    .boxx2-7{
+        text-align: center;
+    }
+    .info3{
+        font-size: 12px;
+    }
+    .onepoint img{
+        height: 33px;
+    }
+    .twopoint img{
+        height: 33px;
+    }
+    .imagen3{
+        display: flex;
+        align-items: center;
+    }
+    .boxx4-1{
+        font-size: 12px;
+    }
+    .imagen4 {
+        display: flex;
+        align-items: center;
+    }
+    .imagen4 img{
+        height: 200px;
+    }
+    .parte2{
+        font-size: 12px;
+    }
+    .texto1{
+        width: 180px;
+    }
+    .texto1 img{
+        height: 40px;
+    }
+    .cartas{
+        margin: 0px;
+        width: 200px;
+        font-size: 12px;
+        display: grid;
+    }
+
+    .banner2{
+        flex-wrap: wrap;
+    }
+    .parte2-6{
+        /* display: grid; */
+        gap: 20px;
+        padding: 50px 20px;
+        /* gap: 20px; */
+        /* margin: 20px; */
+    }
+    .precio{
+        height: 100px;
+    }
+    .banner8{
+        background-size: cover;
     }
     
 }
